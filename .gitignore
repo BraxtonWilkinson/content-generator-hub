@@ -1,0 +1,29 @@
+# Target directory
+/target/
+
+# Rust/Cargo
+**/*.rs.bk
+Cargo.lock
+*.rs.bk
+
+# Environment variables
+.env
+.env.*
+
+# Editor and OS-specific files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Debugging
+*.dbg
+
+# Migrations
+/migrations/target/
